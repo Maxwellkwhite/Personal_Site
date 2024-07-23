@@ -4,13 +4,18 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+<!-- https://colorhunt.co/palette/405d72758694f7e7dcfff8f3 -->
+ 
 <html>
 	<head>
 		<title>Just a humble brag</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="static/assets/css/main.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 		<noscript><link rel="stylesheet" href="static/assets/css/noscript.css" /></noscript>
+		
 	</head>
 	<body class="is-preload">
 
@@ -20,77 +25,106 @@
 				<!-- Nav -->
 					<nav id="nav">
 						<a href="#" class="icon solid fa-user-tie"><span>Home</span></a>
-						<a href="#work" class="icon solid fa-file-alt"><span>Work</span></a>
-						<a href="#work" class="icon solid fa-code"><span>Work</span></a>
+						<a href="#resume" class="icon solid fa-file-alt"><span>Resume</span></a>
+						<a href="#projects" class="icon solid fa-code"><span>Projects</span></a>
 						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
 						<a href="https://twitter.com/ajlkn" class="icon brands fa-github"><span>Github</span></a>
 					</nav>
 
-				<!-- Main -->
-					<div id="main">
+					<!-- Main -->
+						<div id="main">
 
-						<!-- Me -->
-							<article id="home" class="panel intro">
-								<header>
-									<h1>Jane Doe</h1>
-									<p>Senior Astral Projectionist</p>
-								</header>
-								<a href="#work" class="jumplink pic">
-									<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
-									<img src="static/images/me.jpg" alt="" />
-								</a>
-							</article>
+							<!-- Me -->
+								<article id="home" class="panel intro">
+									<header>
+										<h1>Maxwell White</h1>
+										<p>Analyst, Consultant, and Developer</p>
+									</header>
+									<a href="#resume" class="jumplink pic">
+										<span class="arrow icon solid fa-chevron-right"><span>See my work</span></span>
+										<img src="static/images/max.jpg" alt="" />
+									</a>
+								</article>
 
-						<!-- Work -->
-							<article id="work" class="panel">
+							<!-- Resume -->
+							<article id="resume" class="panel">
+								<div class="row">
+									<div class="col-4">
+									  <div id="list-example" class="list-group">
+										<a class="list-group-item list-group-item-action" href="#list-item-1">Education</a>
+										<a class="list-group-item list-group-item-action" href="#list-item-2">Experience</a>
+										<a class="list-group-item list-group-item-action" href="#list-item-3">Technical Skills</a>
+									  </div>
+									</div>
+									<div class="col-8">
+									  <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+										<h4 id="list-item-1">Education</h4>
+											<h5><u> Purdue University </u></h5>
+												<li class="shift"> Bachelor of Science in Economics, Minor in Management (Graduated in 3 years)</li>
+												<li class="shift"> GPA 3.21 / 4.00</li>
+
+										<h4 id="list-item-2">Experience</h4>
+											<h5> <u>Tire Rack: July 2023-Present</u></h5>
+											<li class="shift"> Designed and guided implementation for a new credit card verification process, moving from in house verification to a third party. The results of this effort decreased fraudulent transactions by 95% while not interrupting existing order processes.</li>
+											<li class="shift"> Designed a new system within IBMi to create credit card specific discounts. This effort enhanced usage of a retail branded credit card by almost 150% and allowed the marketing team to track key performance indicators for the newly branded card.</li>
+											<li class="shift"> Utilized SQL to produce needed reports requested by business stakeholders through a help desk. These reports touched several domains including sales, utilization, customer information, etc by leveraging many different database tables and schema to accurately and clearly present the data.</li>
+											
+											<h5><u> NTT DATA: February 2021-July 2023</u></h5>
+
+											<li class="shift"> Participated in an Agile environment as a Pod Leader/Business Analyst. This created a smooth and efficient way to manage/create over 70 reports that previously were manual, not defined, or not created. Business Requirements Definitions and Data Mapping were captured for each report. By also taking on the responsibility of a development lead, a hybrid SDLC (System Development Life Cycle) was implemented to ensure standards were met across reporting teams and pods.</li>
+											<li class="shift"> Recreated and built out approximately 20 different reports that had not been managed or produced by the client using SQL and Tableau. This allowed for the client to use a self-service dashboard to easily produce these reports and meet accreditation or their client's standards across domains (Claims, Utilization Management, Care Management, etc.)</li>
+											<li class="shift"> Created data visualizations with Tableau and PowerBI to better create and tell the story of how the company was managing its customers and their members. These visualizations included complex logic sequencing to correctly show the different metrics needed across all domains.</li>
+
+											
+											
+										<h4 id="list-item-3">Technical Skills</h4>
+											<h5> <u>Software</u></h5>
+											<li class="shift"> MS Office, Tableau, Amazon Redshift, Oracle, DBeaver, PowerBI</li>
+											<h5> <u>Project Management</u></h5>
+											<li class="shift"> Business Requirement Definitions, Data Mapping, Process Development, Scrum, Agile,
+												Development Life Cycle</li>
+											<h5> <u>Analysis</u></h5>
+											<li class="shift">Data Modeling, Data Automation, SQL, Report Building </li>								  
+								  
+							</article>  
+
+						<!-- Projects -->
+							<!-- Project 1 -->
+							<article id="projects" class="panel">
 								<header>
 									<h2>Work</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									Here is a look at just some of the projects I've created since learning full-stack development:
 								</p>
-								<section>
-									<div class="row">
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic01.jpg" alt=""></a>
+								<div class="row row-cols-2 g-2">
+									<div class="col">
+									  <div class="card h-100">
+										<img src="static/images/mc.png" class="card-img-top"
+										  alt="Hollywood Sign on The Hill" width="100" height="200" />
+										<div class="card-body">
+										  <h5 class="card-title">Morse Code Translator</h5>
+										  <p class="card-text">
+											Simple text prompt that turns any word into morse code.
+										</p>
+										<a href="https://github.com/Maxwellkwhite/morse_code_translation" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Github Link</a>
 										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic02.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic03.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic04.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic05.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic06.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic07.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic08.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic09.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic10.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic11.jpg" alt=""></a>
-										</div>
-										<div class="col-4 col-6-medium col-12-small">
-											<a href="#" class="image fit"><img src="static/images/pic12.jpg" alt=""></a>
-										</div>
+									  </div>
 									</div>
-								</section>
+									<!-- Project 2 -->
+									<div class="col">
+										<div class="card h-100">
+										  <img src="static/images/website.png" class="card-img-top"
+											alt="Hollywood Sign on The Hill" width="100" height="200" />
+										  <div class="card-body">
+											<h5 class="card-title">My Portfolio - WIP</h5>
+											<p class="card-text">
+											  The website I have created using Python, HTML, and CSS together to display my projects/resume. </p>
+										  	<a href="https://github.com/Maxwellkwhite/Personal_Site" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Github Link</a>
+										  </div>
+										</div>
+									  </div>
+								  </div>
 							</article>
 
 						<!-- Contact -->
